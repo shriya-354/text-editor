@@ -10,15 +10,15 @@
 #define BOOLEAN u32
 #define TRUE 1
 #define FALSE 0
-#define MAX 120
+#define MAXLINES 120
 #define internal static
 
 Uint32* screen_pixels;
 
 typedef Uint32 u32;
 typedef Uint64 u64;
-typedef Sint32 s32;
-typedef Sint64 s64;
+typedef Sint32 i32;
+typedef Sint64 i64;
 
 typedef struct recta{
 	int x,y,w,h;
@@ -109,7 +109,7 @@ int main(int argc , char *argv[]){
 	BOOLEAN pressed_left = FALSE;
 	BOOLEAN pressed_right = FALSE;
 	
-	text = TTF_RenderText_Solid(font,)
+	//text = TTF_RenderText_Solid(font,)
 
 	char curr_ch = '\0';
 	char lines[MAX_LINES][MAX_LINE_LENGTH] = { 0 };
